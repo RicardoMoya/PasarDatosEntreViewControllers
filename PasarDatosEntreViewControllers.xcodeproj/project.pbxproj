@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790B9CC215ECAD4800E745D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790B9CC115ECAD4800E745D3 /* UIKit.framework */; };
+		790B9CC415ECAD4800E745D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790B9CC315ECAD4800E745D3 /* Foundation.framework */; };
+		790B9CC615ECAD4800E745D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790B9CC515ECAD4800E745D3 /* CoreGraphics.framework */; };
+		790B9CCC15ECAD4800E745D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 790B9CCA15ECAD4800E745D3 /* InfoPlist.strings */; };
+		790B9CCE15ECAD4800E745D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B9CCD15ECAD4800E745D3 /* main.m */; };
+		790B9CD215ECAD4800E745D3 /* PrimeraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B9CD115ECAD4800E745D3 /* PrimeraAppDelegate.m */; };
+		790B9CD515ECAD4800E745D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 790B9CD315ECAD4800E745D3 /* MainStoryboard.storyboard */; };
+		790B9CD815ECAD4800E745D3 /* PrimeraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B9CD715ECAD4800E745D3 /* PrimeraViewController.m */; };
+		790B9CE015ECAEBF00E745D3 /* SegundaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B9CDF15ECAEBF00E745D3 /* SegundaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790B9CBD15ECAD4800E745D3 /* PasarDatosEntreViewControllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasarDatosEntreViewControllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790B9CC115ECAD4800E745D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		790B9CC315ECAD4800E745D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		790B9CC515ECAD4800E745D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		790B9CC915ECAD4800E745D3 /* PasarDatosEntreViewControllers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasarDatosEntreViewControllers-Info.plist"; sourceTree = "<group>"; };
+		790B9CCB15ECAD4800E745D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		790B9CCD15ECAD4800E745D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		790B9CCF15ECAD4800E745D3 /* PasarDatosEntreViewControllers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasarDatosEntreViewControllers-Prefix.pch"; sourceTree = "<group>"; };
+		790B9CD015ECAD4800E745D3 /* PrimeraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeraAppDelegate.h; sourceTree = "<group>"; };
+		790B9CD115ECAD4800E745D3 /* PrimeraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeraAppDelegate.m; sourceTree = "<group>"; };
+		790B9CD415ECAD4800E745D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		790B9CD615ECAD4800E745D3 /* PrimeraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrimeraViewController.h; sourceTree = "<group>"; };
+		790B9CD715ECAD4800E745D3 /* PrimeraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrimeraViewController.m; sourceTree = "<group>"; };
+		790B9CDE15ECAEBF00E745D3 /* SegundaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaViewController.h; sourceTree = "<group>"; };
+		790B9CDF15ECAEBF00E745D3 /* SegundaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790B9CBA15ECAD4800E745D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790B9CC215ECAD4800E745D3 /* UIKit.framework in Frameworks */,
+				790B9CC415ECAD4800E745D3 /* Foundation.framework in Frameworks */,
+				790B9CC615ECAD4800E745D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790B9CB215ECAD4800E745D3 = {
+			isa = PBXGroup;
+			children = (
+				790B9CC715ECAD4800E745D3 /* PasarDatosEntreViewControllers */,
+				790B9CC015ECAD4800E745D3 /* Frameworks */,
+				790B9CBE15ECAD4800E745D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790B9CBE15ECAD4800E745D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790B9CBD15ECAD4800E745D3 /* PasarDatosEntreViewControllers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790B9CC015ECAD4800E745D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790B9CC115ECAD4800E745D3 /* UIKit.framework */,
+				790B9CC315ECAD4800E745D3 /* Foundation.framework */,
+				790B9CC515ECAD4800E745D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790B9CC715ECAD4800E745D3 /* PasarDatosEntreViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				790B9CD315ECAD4800E745D3 /* MainStoryboard.storyboard */,
+				790B9CD615ECAD4800E745D3 /* PrimeraViewController.h */,
+				790B9CD715ECAD4800E745D3 /* PrimeraViewController.m */,
+				790B9CDE15ECAEBF00E745D3 /* SegundaViewController.h */,
+				790B9CDF15ECAEBF00E745D3 /* SegundaViewController.m */,
+				790B9CC815ECAD4800E745D3 /* Supporting Files */,
+			);
+			path = PasarDatosEntreViewControllers;
+			sourceTree = "<group>";
+		};
+		790B9CC815ECAD4800E745D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				790B9CD015ECAD4800E745D3 /* PrimeraAppDelegate.h */,
+				790B9CD115ECAD4800E745D3 /* PrimeraAppDelegate.m */,
+				790B9CC915ECAD4800E745D3 /* PasarDatosEntreViewControllers-Info.plist */,
+				790B9CCA15ECAD4800E745D3 /* InfoPlist.strings */,
+				790B9CCD15ECAD4800E745D3 /* main.m */,
+				790B9CCF15ECAD4800E745D3 /* PasarDatosEntreViewControllers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790B9CBC15ECAD4800E745D3 /* PasarDatosEntreViewControllers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790B9CDB15ECAD4800E745D3 /* Build configuration list for PBXNativeTarget "PasarDatosEntreViewControllers" */;
+			buildPhases = (
+				790B9CB915ECAD4800E745D3 /* Sources */,
+				790B9CBA15ECAD4800E745D3 /* Frameworks */,
+				790B9CBB15ECAD4800E745D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasarDatosEntreViewControllers;
+			productName = PasarDatosEntreViewControllers;
+			productReference = 790B9CBD15ECAD4800E745D3 /* PasarDatosEntreViewControllers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790B9CB415ECAD4800E745D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Primera;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ricardo Moya Garcia";
+			};
+			buildConfigurationList = 790B9CB715ECAD4800E745D3 /* Build configuration list for PBXProject "PasarDatosEntreViewControllers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 790B9CB215ECAD4800E745D3;
+			productRefGroup = 790B9CBE15ECAD4800E745D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790B9CBC15ECAD4800E745D3 /* PasarDatosEntreViewControllers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790B9CBB15ECAD4800E745D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790B9CCC15ECAD4800E745D3 /* InfoPlist.strings in Resources */,
+				790B9CD515ECAD4800E745D3 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790B9CB915ECAD4800E745D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790B9CCE15ECAD4800E745D3 /* main.m in Sources */,
+				790B9CD215ECAD4800E745D3 /* PrimeraAppDelegate.m in Sources */,
+				790B9CD815ECAD4800E745D3 /* PrimeraViewController.m in Sources */,
+				790B9CE015ECAEBF00E745D3 /* SegundaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		790B9CCA15ECAD4800E745D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790B9CCB15ECAD4800E745D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		790B9CD315ECAD4800E745D3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				790B9CD415ECAD4800E745D3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		790B9CD915ECAD4800E745D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		790B9CDA15ECAD4800E745D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790B9CDC15ECAD4800E745D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasarDatosEntreViewControllers/PasarDatosEntreViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "PasarDatosEntreViewControllers/PasarDatosEntreViewControllers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		790B9CDD15ECAD4800E745D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasarDatosEntreViewControllers/PasarDatosEntreViewControllers-Prefix.pch";
+				INFOPLIST_FILE = "PasarDatosEntreViewControllers/PasarDatosEntreViewControllers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790B9CB715ECAD4800E745D3 /* Build configuration list for PBXProject "PasarDatosEntreViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790B9CD915ECAD4800E745D3 /* Debug */,
+				790B9CDA15ECAD4800E745D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790B9CDB15ECAD4800E745D3 /* Build configuration list for PBXNativeTarget "PasarDatosEntreViewControllers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790B9CDC15ECAD4800E745D3 /* Debug */,
+				790B9CDD15ECAD4800E745D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790B9CB415ECAD4800E745D3 /* Project object */;
+}
